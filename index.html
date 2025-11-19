@@ -10,8 +10,17 @@
 <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
 <body>
 <a-scene>
-    <a-entity environment="preset: forest; dressingAmount: 500;skyColor:red; dressing:apparatus;" ></a-entity>
+    <a-entity environment="preset: goldmine; dressingAmount: 500;skyColor:red; dressing:apparatus; playarea: 5;" ></a-entity>
+    <a-box id="floor" position="0 0 0" scale = "7.5 2.5 7.5" color="black" height="0.1"></a-box>
+        <a-box id="wall" position="0 0 3.75" scale = "7.5 0.4 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
+        <a-box id="wall" position="0 0 -3.75" scale = "7.5 0.5 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
+        <a-box id="wall" position="3.75 0 0" scale = "7.5 0.4 7.5" rotation = "90 90 0" color="#FFE700" height="0.1"></a-box>
+        <a-box id="wall" position="-3.75 0 0" scale = "7.5 0.5 7.5" rotation = "90 90 0" color="#FFE700" height="0.1"></a-box>
+        <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="9.931 0.20 6.110" color="silver"></a-box>
+        <a-box id="roof_right" position="-2.580 4.328 0" rotation="-28.433 90 0" scale="9.931 0.20 6.110" color="silver"></a-box>
+        <a-cylinder id="triangle_front" segments-radial="3" position="0 4.4 3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
+        <a-cylinder id="triangle_front" segments-radial="3" position="0 4.4 -3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
 
 </a-scene>
 </body>
-</html>
+</html>     
