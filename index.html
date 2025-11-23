@@ -10,7 +10,7 @@
 <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
 <body>
 <a-scene>
-    <a-entity environment="preset: goldmine; dressingAmount: 500;skyColor:red; dressing:apparatus; playarea: 5;" ></a-entity>
+    <a-entity environment="preset: goldmine; dressingAmount: 0;skyColor:red; dressing:apparatus; playarea: 10;" ></a-entity>
     <a-box id="floor" position="0 0 0" scale = "7.5 2.5 7.5" color="black" height="0.1"></a-box>
         <a-box id="wall" position="0 0 3.75" scale = "7.5 0.4 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
         <a-box id="wall" position="0 0 -3.75" scale = "7.5 0.5 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
@@ -20,8 +20,16 @@
         <a-box id="roof_right" position="-2.580 4.328 0" rotation="-28.433 90 0" scale="9.931 0.20 6.110" color="silver"></a-box>
         <a-cylinder id="triangle_front" segments-radial="3" position="0 4.4 3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
         <a-cylinder id="triangle_front" segments-radial="3" position="0 4.4 -3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
-        <a-plane id="art1" src="images/football-1396740.jpg" scale="3 2 0.05" rotation="0 0 0" position="1.762 1.934 -3.692"></a-plane>
-        <a-plane id="art1" src="images/dare-7108955.jpg" scale="3 2 0.05" rotation="0 90 0" position="-3.68 1.934 -2"></a-plane>
+        <a-plane id="art1" src="images/Football.jpg" scale="3 2 0.05" rotation="0 0 0" position="1.762 1.934 -3.692"></a-plane>
+        <a-plane id="art1" src="images/BMW.jpg" scale="3 2 0.05" rotation="0 90 0" position="-3.68 1.934 -2"></a-plane>
+        <a-plane id="art1" src="images/golden retreiver.jpeg" scale="2.5 2 0.05" rotation="0 -90 0" position="3.68 1.934 -2"></a-plane>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 0" rotation="-90 0 0" scale="0.05 0.05 0.05"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="15 0 15" rotation="-90 -135 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-15 0 -15" rotation="-90 -310 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="15 0 -15" rotation="-90 310 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-15 0 15" rotation="-90 135 0" scale="0.15 0.15 0.15"></a-obj-model>
+        
+
 
 </a-scene>
 </body>
