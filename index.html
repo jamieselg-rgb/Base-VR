@@ -12,22 +12,82 @@
 <a-scene>
     <a-entity environment="preset: goldmine; dressingAmount: 0;skyColor:red; dressing:apparatus; playarea: 10;" ></a-entity>
     <a-box id="floor" position="0 0 0" scale = "7.5 2.5 7.5" color="black" height="0.1"></a-box>
-        <a-box id="wall" position="0 0 3.75" scale = "7.5 0.4 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
-        <a-box id="wall" position="0 0 -3.75" scale = "7.5 0.5 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
-        <a-box id="wall" position="3.75 0 0" scale = "7.5 0.4 7.5" rotation = "90 90 0" color="#FFE700" height="0.1"></a-box>
-        <a-box id="wall" position="-3.75 0 0" scale = "7.5 0.5 7.5" rotation = "90 90 0" color="#FFE700" height="0.1"></a-box>
+        <a-box id="wall1" position="0 0 3.75" scale = "7.5 0.4 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
+        <a-box id="wall2" position="0 0 -3.75" scale = "7.5 0.5 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
+        <a-box id="wall3" position="3.75 0 0" scale = "7.5 0.4 7.5" rotation = "90 90 0" color="#FFE700" height="0.1"></a-box>
+        <a-box id="wall4" position="-3.75 0 0" scale = "7.5 0.5 7.5" rotation = "90 90 0" color="#FFE700" height="0.1"></a-box>
         <a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="9.931 0.20 6.110" color="silver"></a-box>
-        <a-box id="roof_right" position="-2.580 4.328 0" rotation="-28.433 90 0" scale="9.931 0.20 6.110" color="silver"></a-box>
+        <a-box id="roof_Back" position="-2.580 4.328 0" rotation="-28.433 90 0" scale="9.931 0.20 6.110" color="silver"></a-box>
         <a-cylinder id="triangle_front" segments-radial="3" position="0 4.4 3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
-        <a-cylinder id="triangle_front" segments-radial="3" position="0 4.4 -3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
+        <a-cylinder id="triangle_back" segments-radial="3" position="0 4.4 -3.75" rotation="-90 0 0" scale="4.5 0.05 1.4" color="silver"></a-cylinder>
         <a-plane id="art1" src="images/Football.jpg" scale="3 2 0.05" rotation="0 0 0" position="1.762 1.934 -3.692"></a-plane>
         <a-plane id="art1" src="images/BMW.jpg" scale="3 2 0.05" rotation="0 90 0" position="-3.68 1.934 -2"></a-plane>
         <a-plane id="art1" src="images/golden retreiver.jpeg" scale="2.5 2 0.05" rotation="0 -90 0" position="3.68 1.934 -2"></a-plane>
-        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 0" rotation="-90 0 0" scale="0.05 0.05 0.05"></a-obj-model>
-        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="15 0 15" rotation="-90 -135 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-1.75 0 -2.75" rotation="-90 0 0" scale="0.05 0.05 0.05"></a-obj-model>
+        <a-obj-model id="3dModel]?[.]" src="images/3d sowman.obj" mtl="images/obj.mtl" position="15 0 15" rotation="-90 -135 0" scale="0.15 0.15 0.15"></a-obj-model>
         <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-15 0 -15" rotation="-90 -310 0" scale="0.15 0.15 0.15"></a-obj-model>
         <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="15 0 -15" rotation="-90 310 0" scale="0.15 0.15 0.15"></a-obj-model>
         <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-15 0 15" rotation="-90 135 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 15" rotation="-90 180 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-18 0 0" rotation="-90 90 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="18 0 0" rotation="-90 -90 0" scale="0.15 0.15 0.15"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 -15" rotation="-90 0 0" scale="0.15 0.15 0.15"></a-obj-model>
+
+        
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="10 0 10" rotation="-90 -135 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-10 0 -10" rotation="-90 -310 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="10 0 -10" rotation="-90 310 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-10 0 10" rotation="-90 135 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 10" rotation="-90 180 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-13 0 0" rotation="-90 90 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="13 0 0" rotation="-90 -90 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 -10" rotation="-90 0 0" scale="0.10 0.10 0.10"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="6 0 6" rotation="-90 -135 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 -6" rotation="-90 -310 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="6 0 -6" rotation="-90 310 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 6" rotation="-90 135 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 6" rotation="-90 180 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-8 0 0" rotation="-90 90 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="8 0 0" rotation="-90 -90 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 -6" rotation="-90 0 0" scale="0.07 0.07 0.07"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="6 0 -11" rotation="-90 -34 0" scale="0.09 0.09 0.09"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="3 0 -6" rotation="-90 -34 0" scale="0.06 0.06 0.06"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 11" rotation="-90 145 0" scale="0.09 0.09 0.09"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-3 0 6" rotation="-90 145 0" scale="0.06 0.06 0.06"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-11 0 6" rotation="-90 145 0" scale="0.09 0.09 0.09"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 3" rotation="-90 145 0" scale="0.06 0.06 0.06"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="10 0 10" rotation="-90 -135 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-10 0 -10" rotation="-90 -310 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="10 0 -10" rotation="-90 310 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-10 0 10" rotation="-90 135 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 10" rotation="-90 180 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-13 0 0" rotation="-90 90 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="13 0 0" rotation="-90 -90 0" scale="0.10 0.10 0.10"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 -10" rotation="-90 0 0" scale="0.10 0.10 0.10"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="6 0 6" rotation="-90 -135 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 -6" rotation="-90 -310 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="6 0 -6" rotation="-90 310 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 6" rotation="-90 135 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 6" rotation="-90 180 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-8 0 0" rotation="-90 90 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="8 0 0" rotation="-90 -90 0" scale="0.07 0.07 0.07"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="0 0 -6" rotation="-90 0 0" scale="0.07 0.07 0.07"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="6 0 -11" rotation="-90 -34 0" scale="0.09 0.09 0.09"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="3 0 -6" rotation="-90 -34 0" scale="0.06 0.06 0.06"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 11" rotation="-90 145 0" scale="0.09 0.09 0.09"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-3 0 6" rotation="-90 145 0" scale="0.06 0.06 0.06"></a-obj-model>
+
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-11 0 6" rotation="-90 145 0" scale="0.09 0.09 0.09"></a-obj-model>
+        <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 3" rotation="-90 145 0" scale="0.06 0.06 0.06"></a-obj-model>
+        
+        
         
 
 
