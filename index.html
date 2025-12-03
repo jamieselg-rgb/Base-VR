@@ -10,6 +10,21 @@
 <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
 <body>
 <a-scene>
+    <a-assets>
+       <!-- Video -->
+
+  <video id="videoclip" loop="true" src="tvAssets/harry_potter.mp4" crossorigin="anonymous" preload="auto"></video>
+
+  <!-- Buttons and Background -->
+
+  <img id="play" src="tvAssets/btnPlay.png" preload="auto">
+
+  <img id="pause" src="tvAssets/btnPause.png" preload="auto">
+
+  <img id="tv_background" src="tvAssets/tv_background.jpg" preload="auto">  
+    </a-assets>
+   
+   
     <a-entity environment="preset: goldmine; dressingAmount: 0;skyColor:red; dressing:apparatus; playarea: 10;" ></a-entity>
     <a-box id="floor" position="0 0 0" scale = "7.5 2.5 7.5" color="black" height="0.1"></a-box>
         <a-box id="wall1" position="0 0 3.75" scale = "7.5 0.4 7.4" rotation = "90 0 0" color="#FFA100" height="0.1"></a-box>
@@ -86,6 +101,10 @@
 
         <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-11 0 6" rotation="-90 145 0" scale="0.09 0.09 0.09"></a-obj-model>
         <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 3" rotation="-90 145 0" scale="0.06 0.06 0.06"></a-obj-model>
+
+        <script src="main.js"></script>
+
+      
         
         
         
