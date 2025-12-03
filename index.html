@@ -103,6 +103,29 @@
         <a-obj-model id="3dModel1" src="images/3d sowman.obj" mtl="images/obj.mtl" position="-6 0 3" rotation="-90 145 0" scale="0.06 0.06 0.06"></a-obj-model>
 
         <script src="main.js"></script>
+        <a-entity>
+
+            <a-video src="#videoclip" position="-3.893 1.6 0" rotation="0 90 0" width="2" height="1.125"></a-video>
+          
+            <!-- TV background -->
+          
+            <a-plane id="videoControls" position="-3.893 0.854 0" scale="2 0.386 1.714" rotation="0 90 0" opacity="1" src="#tv_background">
+          
+              <!-- Play button -->
+          
+              <a-plane id="vidplaybox" src="#play" scale="0.122 0.678 0.122" position="-0.350 0 .01" shader="flat" transparent="true" videoplayer></a-plane>
+          
+              <!-- Stop button -->
+          
+              <a-plane id="vidpausebox" src="#pause" scale="0.122 0.678 0.122" position="0.350 0 .01" shader="flat" transparent="true" videopauser></a-plane>
+          
+            </a-plane>
+          
+          </a-entity>
+          
+          <!-- Allows clicking with the mouse -->
+          
+          <a-entity cursor="rayOrigin: mouse"></a-entity>
 
       
         
